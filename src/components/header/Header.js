@@ -7,11 +7,13 @@ import {
   greeting,
   workExperiences,
   skillsSection,
+  posOfResponsibilitySection,
   openSource,
   blogSection,
   talkSection,
   achievementSection,
-  resumeSection
+  resumeSection,
+  bigProjects
 } from "../../portfolio";
 
 function Header() {
@@ -23,6 +25,8 @@ function Header() {
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
+  const viewPos = posOfResponsibilitySection.display;
+  const viewProject = bigProjects.display;
 
   return (
     <Headroom>
@@ -51,6 +55,11 @@ function Header() {
               <a href="#experience">Work Experiences</a>
             </li>
           )}
+          {viewProject && (
+            <li>
+              <a href="#blogs">Projects</a>
+            </li>
+          )}
           {viewOpenSource && (
             <li>
               <a href="#opensource">Open Source</a>
@@ -58,12 +67,17 @@ function Header() {
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
+              <a href="#achievements">Certifications</a>
             </li>
           )}
           {viewBlog && (
             <li>
               <a href="#blogs">Blogs</a>
+            </li>
+          )}
+          {viewPos && (
+            <li>
+              <a href="#blogs">Position of Responsibility</a>
             </li>
           )}
           {viewTalks && (
@@ -73,7 +87,7 @@ function Header() {
           )}
           {viewResume && (
             <li>
-              <a href="https://drive.google.com/file/d/1s27GKMkCQtfDEVb3cF7qfxJDwML_MMNi/view?usp=sharing">Resume</a>
+              <a href="https://drive.google.com/file/d/1utftqXKmppqFuMVwzr65kliYktHCg52W/view?usp=sharing">Resume</a>
             </li>
           )}
           <li>

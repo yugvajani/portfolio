@@ -30,6 +30,16 @@ export default function ExperienceCard({cardInfo, isDark}) {
       : null;
   };
 
+  const GetTechStack = ({ techStack, isDark }) => {
+    return techStack
+      ? techStack.map((tech, i) => (
+          <span key={i} className={isDark ? "tech-stack dark-mode-text" : "tech-stack"}>
+            Technology Stack: {tech}
+          </span>
+        ))
+      : null;
+  };
+
   return (
     <div className={isDark ? "experience-card-dark" : "experience-card"}>
       <div style={{background: rgb(colorArrays)}} className="experience-banner">
@@ -75,6 +85,9 @@ export default function ExperienceCard({cardInfo, isDark}) {
         >
           {cardInfo.desc}
         </p>
+        <div className="tech-stack-container">
+          <GetTechStack techStack={cardInfo.techStack} isDark={isDark} />
+        </div>
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>

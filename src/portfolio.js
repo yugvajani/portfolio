@@ -20,23 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Ajitesh Nair",
-  title: "Hi all, I'm Ajitesh",
+  username: "Yug Vajani",
+  title: "Hi all, I'm Yug",
   subTitle: emoji(
-    "A passionate Software Engineer 🚀 experienced in building large-scale applications using Python, Go, C, C++, and more."
+    "A passionate Software Engineer 🚀 with expertise in frontend and backend development using React, Python, Java, and more. Beyond coding, I enjoy sports, traveling, sketching, and dancing."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1s27GKMkCQtfDEVb3cF7qfxJDwML_MMNi/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1utftqXKmppqFuMVwzr65kliYktHCg52W/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/Ajitesh27",
-  linkedin: "https://www.linkedin.com/in/AjiteshNair/",
-  gmail: "ajiteshnair@gmail.com",
-  instagram: "https://www.instagram.com/_ajitesh27/",
+  github: "https://github.com/yugvajani",
+  linkedin: "https://www.linkedin.com/in/yug-vajani-8161a419a/",
+  gmail: "yvajani2@illinois.edu",
+  instagram: "https://www.instagram.com/yugvajani/",
   // Add acm and illinois email
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -47,15 +47,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY SOFTWARE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Passionate software developer with an insatiable curiosity to dive into every tech stack, always eager to experiment, learn, and push boundaries in the ever-evolving world of technology.",
   skills: [
     "and many more...",
     emoji(
-      "⚡ Passionate about creating scalable and efficient cloud-based distributed systems."
+      "⚡ Enthusiastic about building dynamic, responsive, and high-performance frontend applications that deliver seamless user experiences. "
     ),
     emoji("⚡ Proficient in building robust and efficient APIs for seamless service integration and communication."),
     emoji(
-      "⚡ Skilled with Docker and Kubernetes for containerization and orchestration, developing, and monitoring large-scale applications."
+      "⚡ Skilled with Docker for containerization, developing, and monitoring large-scale applications."
     )
   ],
 
@@ -63,6 +63,14 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
@@ -72,20 +80,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-c"
     },
     {
-      skillName: "go",
-      fontAwesomeClassname: "fab fa-golang"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
       skillName: "html",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "Node.js",
+      fontAwesomeClassname: "fab fa-node"
     },
     {
       skillName: "jenkins",
@@ -100,17 +104,22 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "linode",
-      fontAwesomeClassname: "fab fa-linode"
-    },
-    {
       skillName: "git",
       fontAwesomeClassname: "fab fa-git"
     },
     {
+      skillName: "gitlab",
+      fontAwesomeClassname: "fab fa-gitlab"
+    },
+    {
+      skillName: "bitbucket",
+      fontAwesomeClassname: "fab fa-bitbucket"
+    },
+    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -123,41 +132,35 @@ const educationInfo = {
     {
       schoolName: "University of Illinois Urbana-Champaign",
       logo: require("./assets/images/uiucLogo.jpg"),
-      subHeader: "Masters in Computer Science                                                                                             GPA :   3.94 / 4.0",
-      duration: "January 2024 - May 2025",
+      subHeader: "Masters in Computer Science                                                                                             GPA :   4.0 / 4.0",
+      duration: "August 2024 - December 2025",
       descBullets: [
-        "Member of the Association for Computing Machinery (ACM)",
-        "Top 5 - Code in the Dark, Hack Illinois 2024",
-        "CS Grad Teaching Assistant for 'Topics in Software Engineering' and 'Software Engineering I' with Dr.Darko Marinov"
+        "CS Grad Teaching Assistant for 'Software Engineering I' with Dr.Darko Marinov"
       ],
       courses: [
-         "Distributed Systems", "Computer Security", "Data Management", "Database Systems", "Advanced topics in Software Engineering", "Data Mining", "Threat Detection",  "Artificial Intelligence"
+        "Art of Web Programming", "Cloud Computing Applications", "Advanced topics in Software Engineering", "Advanced Machine Learning", "User Centered Machine Learning"
       ]
     },
     {
-      schoolName: "PES University",
-      logo: require("./assets/images/pesuLogo.png"),
-      subHeader: "Bachelor of Technology in Computer Science and Engineering                             GPA :   8.86 / 10.0",
+      schoolName: "Sardar Patel Institute of Technology",
+      logo: require("./assets/images/spit.png"),
+      subHeader: "Bachelor of Technology in Computer Engineering                             GPA :   9.72 / 10.0",
       duration: "August 2018 - May 2022",
       descBullets: [
-        "Specialization in Machine Intelligence and Data Science",
-        "Minors in Electronics and Communication Engineering",
-        "Received scholarships 7 times in 8 semesters for being in the top 20% of the university"
+        "Teaching Assistant for Advanced Data Structures and Algorithm",
+        "Sports Secretary of College, part of Computer Society of India, Cricket Team of College",
+        "Ranked in Top 10 of college"
       ],
       courses: [
-        "Python",
+        "Advanced Data Structures",
         "C",
         "Design and Analysis of Algorithms",
-        "Data Structures",
-        "Cloud Computing",
-        "Big Data",
+        "Database Management Systems",
+        "Big Data Analytics",
         "Operating Systems",
         "Computer Networks",
         "Object Oriented Programming",
         "Machine Learning",
-        "Data Analytics",
-        "Natural Language Processing",
-        "Database Management Systems",
       ]
     }
   ]
@@ -169,17 +172,29 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Backend", //Insert stack or technology you have experience in
+      Stack: "Frontend Development", //Insert stack or technology you have experience in
       progressPercentage: "95%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Programming",
-      progressPercentage: "90%"
+      Stack: "Backend Development",
+      progressPercentage: "85%"
     },
     {
       Stack: "Data Engineering",
-      progressPercentage: "85%"
-    }
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Machine Learning", //Insert stack or technology you have experience in
+      progressPercentage: "75%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "UI/UX Design",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Testing & Quality Assurance",
+      progressPercentage: "90%"
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -190,39 +205,41 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Akamai Technologies",
-      companylogo: require("./assets/images/akamaiLogo.png"),
-      date: "                                    Summer Intern                       May 2024 - Aug 2024 ( 3 Months )                               California, US\n                                 Software Engineer                     July 2022 - Dec 2023 ( 1.5 Years )                                 Bangalore, IN\n                      Software Engineering Intern            Jan 2022 - June 2022 ( 6 Months )                              Bangalore, IN",
+      role: "Software Engineer II",
+      company: "J.P.Morgan Chase & Co.",
+      companylogo: require("./assets/images/jpmc.png"),
       descBullets: [
-       "Developed a new version of a product ( Kafka -> S3 ) that reduced memory usage by 50% and increased throughput by 12 times.",
-       "Developed various tools and APIs to create and manage AWS / Linode Instances / Volumes / Disks, handle customer migrations, CRUD operations on Cassandra, automatically create Athena Partitions, manage customer events, etc.",
-       "Created a Golang library to interact with SaltStack to manage clusters remotely enabling Linode to emulate AWS Opsworks.",
-        "Dockerized several projects and migrated them to Kubernetes by creating helm charts and designing Jenkins pipelines to build and deploy images.",
-        "Optimized memory consumption and enhanced Trino query performance by redesigning system architecture.",
-        "Leveraged knowledge in Go, Python, REST APIs, Kubernetes, Big Data, Jenkins, Salt, Kafka, Consul, etc."
-      ]
+        "Enhanced frontend features, improving application performance by 35%, reducing client delays during trade placements.",
+        "Set up infrastructure for disaster recovery, high availability, and failover mechanisms to ensure server reliability.",
+        "Developed automation scripts, reducing manual testing efforts and decreasing production bugs.",
+        "Utilized RxJS and Redux for state management and front-end integration with the server.",
+        "Implemented socket-based data streaming, enabling server to handle 20,000 concurrent requests using multithreading.",
+        "Performed backend service testing with JUnit, ensuring robust and reliable functionality."
+      ],
+      techStack: ["React, RxJS, SpringBoot, Agile, Jest, Junit"]
     },
     {
-      role: "Software Development Intern",
-      company: "Autodesk",
-      companylogo: require("./assets/images/autodeskLogo.png"),
-      date: "                           July 2021 - Dec 2021 ( 6 Months )                                                                      Bangalore, IN",
+      role: "Software Developer Intern",
+      company: "Prime Software Solutions",
+      companylogo: require("./assets/images/prime.png"),
       descBullets: [
-        "Worked on the development of a new “Read-Only for Me” feature for the flagship Fusion 360 product.",
-        "Created automations to monitor regressions and fixed them, Upgraded UI elements, and optimized several workflows.",
-        "Leveraged knowledge in C++, Git, OOPS, Data Models, Agile Development, Jira, CAD, Testing, etc."
-      ]},
+        "Established an efficient GST Tax Automation System using Agile methodologies to adapt to changing GST rules.",
+        "Overhauled API connections by removing outdated endpoints and improving response times by 15%.",
+        "Optimized MySQL queries, reducing execution time and database load, enhancing system performance."
+      ],
+      techStack: ["React, Python, Agile, MySQL"]
+    },
     {
-      role: "Product Development Intern",
-      company: "nSmiles",
-      companylogo: require("./assets/images/nsmilesLogo.png"),
-      date: "                           Jan 2021 - Jun 2021 ( 6 Months )                                                                      Bangalore, IN",
+      role: "Software Developer Intern",
+      company: "LetsAlign",
+      companylogo: require("./assets/images/letsalign.png"),
       descBullets: [
-        'Leader of the "AI-based Career Counseling with Chatbots” project.',
-        "Designed and created a chatbot. Incorporated features like Real-time score updation, Automatic Email generation, etc.",
-        "Leveraged knowledge in RASA, Python, REST API, Machine Learning, HTML, CSS, Javascript, etc."
-      ]},
+        'Drove the design and development of Intelligent Virtual Assistants for platforms like WhatsApp and Facebook, serving clients such as Eurokids, ISPP, Fortis Healthcare, and LivPure.',
+        'Built and maintained Shopify websites for businesses such as WellBeing Nutrition, Gaya, and Vardenchi.',
+        'Tested the application as an end user to identify and report bugs, ensuring a smooth experience.',
+      ],
+      techStack: ["JavaScript, Python, ML/ AI, Django"]
+    },
   ]
 };
 
@@ -231,7 +248,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -240,7 +257,7 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
-    
+
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -249,46 +266,45 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications and Publications "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Certifications and Research Publications that I have done !",
 
   achievementsCards: [
     {
-      title: "Data @ ANZ Virtual Internship",
+      title: "AWS Cloud Practitioner",
       subtitle:
-        "Worked on Exploratory Data Analysis and Predictive Analytics.",
-      image: require("./assets/images/anz.jpeg"),
-      imageAlt: "ANZ Logo",
+        "Learnt foundational knowledge of AWS Cloud concepts, services, security, pricing, and architecture",
+      image: require("./assets/images/aws-certified-cloud-practitioner.png"),
+      imageAlt: "AWS Logo",
       footerLink: [
         {
           name: "View Certificate",
-          url: "https://drive.google.com/file/d/1iV5Q1ODKNF_F1sbK3OSQLk3ACjHASmUh/view?usp=sharing"
+          url: "https://www.credly.com/badges/f4dd0172-7ce4-4d50-8f5a-cb8a93d853f7/public_url"
         }
       ]
     },
     {
-      title: "Google Cloud Ready Facilitator Program",
+      title: "Reducing Gender and Ethnicity Bias In Personality Trait Prediction",
       subtitle:
-        "Completed 24 quests and earned 12 skill badges related to cloud infrastructure, cloud-native application development, big data, and machine learning. ",
-      image: require("./assets/images/googleCloud.png"),
-      imageAlt: "Google Cloud Logo",
+        "Designed a website to streamline recruitment by predicting candidates' personality traits during screening. Another aim of the project was to reduce gender and ethnicity biases in making the predictions. ",
+      image: require("./assets/images/personality.jpg"),
+      imageAlt: "IEEE Logo",
       footerLink: [
         {
-          name: "View Google Cloud Badges",
-          url: "https://www.cloudskillsboost.google/public_profiles/1732a518-e3e6-4853-b802-62cdcc0078bf"
+          name: "View the Publication",
+          url: "https://ieeexplore.ieee.org/document/10497190"
         }
       ]
     },
-
     {
-      title: "Data Analytics Consulting Virtual Internship",
-      subtitle: "Worked on Data Quality Assessment, Data Insights, and Data Presentation.",
-      image: require("./assets/images/kpmg.jpeg"),
-      imageAlt: "KPMG Logo",
+      title: "Automated Paper Evaluation System for Subjective Handwritten Answers",
+      subtitle: "Developed an application to automate the grading of handwritten student assessments, providing scores with detailed breakdowns. ",
+      image: require("./assets/images/grade.png"),
+      imageAlt: "IEEE Logo",
       footerLink: [
-        {name: "View Certificate", url: "https://drive.google.com/file/d/1GmRLziMXIcWGhYyDzDlV3Jgqentsu0wg/view?usp=sharing"},
-        
+        { name: "View the Publication", url: "https://ieeexplore.ieee.org/document/9579912" },
+
       ]
     }
   ],
@@ -312,6 +328,93 @@ const blogSection = {
   ],
   display: false // Set false to hide this section, defaults to true
 };
+
+// Pos of Resp
+
+const posOfResponsibilitySection = {
+  title: "Position of Responsibility",
+  subtitle:
+    "Apart from Academics, I have been actively involved in a lot of extra curriculars where I learnt about Leadership and Teamwork.",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
+  responsibilities: [
+    {
+      title: "Graduate Teaching Assistant",
+      subtitle:
+        ["Guided students in software engineering principles. ",
+          "Reviewed code assignments for best practices. ",
+          "Held office hours for debugging and project support."],
+      image: require("./assets/images/uiucLogo.jpg"),
+      imageAlt: "University of Illinois Urbana-Champaign Logo",
+      footerLink: [
+      ]
+    },
+    {
+      title: "Code for Good Hackathon Organizing Team",
+      subtitle:
+        "Worked along with a large team to organize a 24 hour global hackathon which serves as the hiring process for new graduates at J.P. Morgan Chase & Co.",
+      image: require("./assets/images/cfg.png"),
+      imageAlt: "Code For Good Logo",
+      footerLink: [
+      ]
+    },
+    {
+      title: "SEPathon Organizing Team",
+      subtitle:
+        "Key organizer of an internal hackathon at JP Morgan Chase & Co., designed to engage and mentor newly joined students. ",
+      image: require("./assets/images/jpmc.png"),
+      imageAlt: "SEPathon Logo",
+      footerLink: [
+      ]
+    },
+    {
+      title: "Mumbai Tech Centre Fun Activity Organizing Team",
+      subtitle:
+        "Key organizer for the monthly fun activities organized at the Mumbai Tech Centre of J.P.Morgan Chase & Co. ",
+      image: require("./assets/images/jpmc.png"),
+      imageAlt: "MTC Logo",
+      footerLink: [
+      ]
+    },
+    {
+      title: "Sports Secretary",
+      subtitle:
+        "I was responsible for overseeing the entire sports administration of the college for the year 2020-2021. ",
+      image: require("./assets/images/spit.png"),
+      imageAlt: "SPIT Logo",
+      footerLink: [
+      ]
+    },
+    {
+      title: "Events Team of Computer Society of India, S.P.I.T.",
+      subtitle:
+        "Conducted technical coding lectures for juniors and contributed to organizing the CSI Hackathon at S.P.I.T. ",
+      image: require("./assets/images/csi.jpg"),
+      imageAlt: "CSI Logo",
+      footerLink: [
+      ]
+    },
+    {
+      title: "Abhyudaya, SPJIMR ",
+      subtitle:
+        "This program was launched to educate underprivileged students, and I was part of the team that taught them.",
+      image: require("./assets/images/abhyudaya.jpg"),
+      imageAlt: "Abhyudaya Logo",
+      footerLink: [
+      ]
+    },
+    {
+      title: "Oculus, S.P.I.T.",
+      subtitle:
+        "Organized an IPL auction event at the college's cultural fest, attracting a large audience. ",
+      image: require("./assets/images/oculus.jpg"),
+      imageAlt: "Oculus Logo",
+      footerLink: [
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
 
 // Talks Sections
 
@@ -357,7 +460,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Please feel free to reach out to me. My Inbox is open for all.",
   number: "",
   email_address: ""
 };
@@ -383,6 +486,7 @@ export {
   openSource,
   bigProjects,
   achievementSection,
+  posOfResponsibilitySection,
   blogSection,
   talkSection,
   podcastSection,

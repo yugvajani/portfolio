@@ -80,16 +80,16 @@
 
 .experience-roundedimg {
   position: absolute;
-  object-fit: cover;
-  left: 0;
-  right: 0;
-  top: 7rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 8rem;
-  height: 8rem;
-  box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
+  width: 7rem;
+  height: 7rem;
+  object-fit: contain;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 6.5rem;
+  background-color: white; /* For contrast with transparent logos */
+  padding: 5px;
   border-radius: 50%;
+  box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
 }
 
 .experience-text-role {
@@ -124,6 +124,24 @@
   margin-top: 2rem;
 }
 
+.tech-stack-container {
+  margin-top: -2rem;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: $textColor;
+}
+
+.tech-stack-container span {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
 /* Media Query */
 
 @media (max-width: 1380px) {
@@ -141,6 +159,9 @@
     width: 6.5rem;
     height: 6.5rem;
   }
+  .tech-stack-container {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -155,5 +176,9 @@
   }
   .experience-text-desc {
     font-size: 16px;
+  }
+  .tech-stack-container span {
+    font-size: 12px;
+    padding: 4px 8px;
   }
 }
