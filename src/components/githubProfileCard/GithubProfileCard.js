@@ -53,7 +53,7 @@ export default function GithubProfileCard({prof}) {
             </div>
             <div className="opp-div">
               <span className="desc-prof">
-                UIUC: ajitesh4@illinois.edu
+                UIUC: yvajani2@illinois.edu
               </span>
             </div>
             <SocialMedia />
