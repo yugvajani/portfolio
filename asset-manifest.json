@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6b6ec77c.css",
+    "main.js": "/static/js/main.7ec0c37b.js",
+    "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
+    "static/js/487.7ae187c0.chunk.js": "/static/js/487.7ae187c0.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.6cafdb4a.chunk.js": "/static/js/990.6cafdb4a.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/resume.pdf": "/static/media/resume.471d9a4800f568c0963c.pdf",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/aws-certified-cloud-practitioner.png": "/static/media/aws-certified-cloud-practitioner.8acb7941b06c8bf39cbe.png",
+    "static/media/letsalign.png": "/static/media/letsalign.c81b574ce0c342ddfdde.png",
+    "static/media/uiucLogo.jpg": "/static/media/uiucLogo.a999016ad6f721d5fb00.jpg",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/spit.png": "/static/media/spit.5608daf278543181f5d0.png",
+    "static/media/grade.png": "/static/media/grade.7cc0906f0eece9319bba.png",
+    "static/media/personality.jpg": "/static/media/personality.cb38234e02e7dae85f28.jpg",
+    "index.html": "/index.html",
+    "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.6b6ec77c.css.map": "/static/css/main.6b6ec77c.css.map",
+    "main.7ec0c37b.js.map": "/static/js/main.7ec0c37b.js.map",
+    "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
+    "487.7ae187c0.chunk.js.map": "/static/js/487.7ae187c0.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
+    "990.6cafdb4a.chunk.js.map": "/static/js/990.6cafdb4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b6ec77c.css",
+    "static/js/main.7ec0c37b.js"
+  ]
+}
