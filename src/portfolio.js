@@ -205,6 +205,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Developer Engineer Intern",
+      company: "Amazon",
+      companylogo: require("./assets/images/aws.png"),
+      descBullets: [
+        "Spearheaded analytics migration from Amazon Pinpoint to CloudWatch for unified analytics platform, enabling better customer impact analysis, scalability and more robust troubleshooting capabilities.",
+        "Designed and built logging infrastructure using CloudWatch and CDK.",
+        "Delivered client-side analytics publishing to CloudWatch with aggregation, batching, backoff, and error handling.",
+      ],
+      techStack: ["C#, Typescript, AWS, Agile"]
+    },
+    {
       role: "Software Engineer II",
       company: "J.P.Morgan Chase & Co.",
       companylogo: require("./assets/images/jpmc.png"),
